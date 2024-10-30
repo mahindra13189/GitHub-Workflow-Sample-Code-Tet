@@ -1,0 +1,11 @@
+@GitHub_Workflow_Sample_Code_Tet_HostAddress = http://localhost:5193
+
+GET {{GitHub_Workflow_Sample_Code_Tet_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{GitHub_Workflow_Sample_Code_Tet_HostAddress}}/todos/1
+Accept: application/json
+
+###
